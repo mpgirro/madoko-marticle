@@ -2,9 +2,9 @@ Doc Class     : [a4paper,11pt] article
 
 Package       : [left=2.6cm,right=2.5cm,top=2.5cm,bottom=2.5cm] geometry
 
-Package       : mathptmx
-Package       : amsfonts
+<!--Package       : amsfonts-->
 Package       : [T1] fontenc
+Package       : mathptmx
 
 Package       : setspace
 Package       : fancyhdr
@@ -19,7 +19,7 @@ rfoot         :
 Tex Header    :
   \parindent=0pt
   \parskip 1ex
-  \renewcommand{\baselinestretch}{1.1}
+  %\renewcommand{\baselinestretch}{1.1}
   \pagestyle{fancy}
   \lhead{&lhead;}
   \chead{&chead;}
